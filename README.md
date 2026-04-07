@@ -147,4 +147,4 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 ## 🙋 Author
 
 Implemented as part of a Digital Signal Processing coursework assignment.  
-Paper implementation by **Gowtham Sornala**.
+Paper implementation by **Teja Sai Sreenivas**.
