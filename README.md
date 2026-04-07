@@ -63,7 +63,7 @@ scipy
 ## ▶️ Usage
 
 ```bash
-python Main_code.py
+python BWPF.py
 ```
 
 The script will:
