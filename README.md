@@ -142,7 +142,7 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ---
 
-## 🙋 Author
+##  Author
 
-Implemented as part of a Digital Signal Processing coursework assignment.  
+Implemented as part of a Digital Signal Processing coursework MiniProject.  
 Paper implementation by **Teja Sai Sreenivas**.
