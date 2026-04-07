@@ -8,7 +8,7 @@ A Python implementation of the **Baseline Wandering Path Finding (BWPF)** algori
 
 ---
 
-## 📌 Paper Reference
+##  Paper Reference
 
 > **"Baseline wandering removal from ECG signal by wandering path finding algorithm"**  
 > Presented at the *3rd International Conference on Electrical Information and Communication Technology (EICT 2017)*  
@@ -16,7 +16,7 @@ A Python implementation of the **Baseline Wandering Path Finding (BWPF)** algori
 
 ---
 
-## 🔍 Overview
+##  Overview
 
 Baseline wander is a low-frequency artifact (< 0.5 Hz) in ECG signals caused by patient respiration, body movement, and poor electrode contact. It significantly distorts the signal morphology, making clinical diagnosis unreliable.
 
@@ -30,12 +30,12 @@ This implementation:
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 ecg-bwpf-baseline-removal/
 │
-├── Main_code.py           # Core implementation (BWPF + comparison + metrics)
+├── BWPF.py           # Core implementation (BWPF + comparison + metrics)
 ├── BWPF_result.png        # Output figure (auto-generated on run)
 ├── README.md              # This file
 └── requirements.txt       # Python dependencies
@@ -43,7 +43,7 @@ ecg-bwpf-baseline-removal/
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ```bash
 git clone https://github.com/<your-username>/ecg-bwpf-baseline-removal.git
@@ -60,7 +60,7 @@ scipy
 
 ---
 
-## ▶️ Usage
+##  Usage
 
 ```bash
 python BWPF.py
@@ -82,7 +82,7 @@ The script will:
 
 ---
 
-## 🧠 Algorithm Summary
+##  Algorithm Summary
 
 ```
 INPUT : noisy ECG signal s[n], window size W, polynomial degree d
@@ -100,11 +100,9 @@ OUTPUT: clean ECG signal, estimated baseline path
 
 ---
 
-## 📊 Output
+##  Output
 
 The 4-panel output figure includes:
-| Panel | Description |
-|-------|-------------|
 | 1 | Raw noisy ECG + estimated BWPF baseline path |
 | 2 | BWPF cleaned output vs. ground truth |
 | 3 | Butterworth high-pass filter output vs. ground truth |
@@ -112,7 +110,7 @@ The 4-panel output figure includes:
 
 ---
 
-## 📜 Citation
+##  Citation
 
 If you use this code in your work, please cite the original paper:
 
@@ -138,7 +136,7 @@ doi: 10.1109/EICT.2017.8275164.
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
