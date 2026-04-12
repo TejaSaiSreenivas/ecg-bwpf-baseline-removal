@@ -46,7 +46,7 @@ ecg-bwpf-baseline-removal/
 ##  Installation
 
 ```bash
-git clone https://github.com/<your-username>/ecg-bwpf-baseline-removal.git
+git clone https://github.com/TejaSaiSreenivas/ecg-bwpf-baseline-removal.git
 cd ecg-bwpf-baseline-removal
 pip install -r requirements.txt
 ```
